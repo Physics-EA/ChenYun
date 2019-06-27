@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: e31f9adf2c085fc44b654497ae318972
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Building_Yulanju
+    100004: w
+    100006: Building_Yulanju001
+    100008: Building_Yulanju_Flower001
+    100010: Building_Yulanju_Grass001
+    100012: Building_Yulanju_GrassSide001
+    100014: Building_YulanjuName001
+    100016: Building_Yulanju_Flower
+    100018: Building_Yulanju_Grass
+    100020: Building_Yulanju_GrassSide
+    100022: Building_YulanjuName
+    400000: //RootNode
+    400002: Building_Yulanju
+    400004: w
+    400006: Building_Yulanju001
+    400008: Building_Yulanju_Flower001
+    400010: Building_Yulanju_Grass001
+    400012: Building_Yulanju_GrassSide001
+    400014: Building_YulanjuName001
+    400016: Building_Yulanju_Flower
+    400018: Building_Yulanju_Grass
+    400020: Building_Yulanju_GrassSide
+    400022: Building_YulanjuName
+    2300000: Building_Yulanju
+    2300002: //RootNode
+    2300004: Building_Yulanju001
+    2300006: Building_Yulanju_Flower001
+    2300008: Building_Yulanju_Grass001
+    2300010: Building_Yulanju_GrassSide001
+    2300012: Building_YulanjuName001
+    2300014: Building_Yulanju_Flower
+    2300016: Building_Yulanju_Grass
+    2300018: Building_Yulanju_GrassSide
+    2300020: Building_YulanjuName
+    3300000: Building_Yulanju
+    3300002: //RootNode
+    3300004: Building_Yulanju001
+    3300006: Building_Yulanju_Flower001
+    3300008: Building_Yulanju_Grass001
+    3300010: Building_Yulanju_GrassSide001
+    3300012: Building_YulanjuName001
+    3300014: Building_Yulanju_Flower
+    3300016: Building_Yulanju_Grass
+    3300018: Building_Yulanju_GrassSide
+    3300020: Building_YulanjuName
+    4300000: Building_Yulanju
+    4300002: Building_YulanjuName001
+    4300004: Building_Yulanju_Flower001
+    4300006: Building_Yulanju_GrassSide001
+    4300008: Building_Yulanju_Grass001
+    4300010: Building_Yulanju001
+    4300012: Building_YulanjuName
+    4300014: Building_Yulanju_Flower
+    4300016: Building_Yulanju_GrassSide
+    4300018: Building_Yulanju_Grass
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

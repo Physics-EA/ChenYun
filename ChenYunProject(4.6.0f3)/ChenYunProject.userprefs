@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NGUI\Scripts\Internal\UIRect.cs">
+    <Files>
+      <File FileName="Assets\YF_Scripts\Common\CMSManage.cs" Line="62" Column="1" />
+      <File FileName="Assets\NGUI\Scripts\Internal\UIRect.cs" Line="61" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\work\SVN\chenyunguju\trunk\branches\ChenYunProject\Assets\YF_Scripts\Common\CMSManage.cs" line="34" />
+      <Breakpoint file="D:\work\SVN\chenyunguju\trunk\branches\ChenYunProject\Assets\YF_Scripts\Common\CMSManage.cs" line="43" />
+      <Breakpoint file="D:\work\SVN\chenyunguju\trunk\branches\ChenYunProject\Assets\NGUI\Scripts\Internal\UIRect.cs" line="484" />
+      <Breakpoint file="D:\work\SVN\chenyunguju\trunk\branches\ChenYunProject\Assets\NGUI\Scripts\Internal\UIRect.cs" line="18" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

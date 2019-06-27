@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!-- maxHeight: 距地面最大高度  patrolHeight：距地面巡逻高度  upSpeed：巡逻过程上升速度  downSpeed：巡逻过程下降速度 moveSpeed：巡逻过程移动速度 rotateSpeed：巡逻过程旋转速度 offset：巡逻追踪视野角度偏移  interval：巡逻追踪最短路径
+scaleSpeed:视角拉近拉远速度
+videoPos：视频窗口位置（左上:0，左下:1，右上:2，右下:3）缺失、默认或配置无法识别的情况下初始定位‘左上:0’ next：开发使用-->
+<config maxHeight = "320" patrolHeight = "40" upSpeed = "100" downSpeed = "64" moveSpeed = "1" rotateSpeed = "1.5" offset = "0" interval = "50" scaleSpeed = "2.5"
+ videoPos = "0" next = "0"/>

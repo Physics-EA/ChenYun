@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- database:弃用  username：数据库用户名  pwd：数据库登录密码  driver：数据库驱动  DataBaseType：数据库类型 -->
+<!--  DNS：odbc连接名称  CMS_ip：中盛益华服务器地址  CMS_port：中盛益华服务器连接端口  CMS_loginName：中盛益华服务器登录名  CMS_loginPassword：中盛益华服务器密码  CMS_Protocol：连接协议：0，Tcp；1，Udp-->
+<ERP>
+	<config database = "mysql"  username = "root" pwd = "admin1234" driver = "{MySQL ODBC 5.3 Unicode Driver}" DataBaseType = "MySQL"
+	DNS = "mysqlcygj32" CMS_ip = "172.22.20.233" CMS_port = "0" CMS_loginName = "admin" CMS_loginPassword = "" CMS_Protocol = "0"/>	
+</ERP>

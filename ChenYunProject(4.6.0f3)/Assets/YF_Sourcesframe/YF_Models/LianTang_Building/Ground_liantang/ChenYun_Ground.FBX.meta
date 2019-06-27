@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 56082c7c2f362f64d8e7b172dece9944
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bridge
+    100002: Bridge01
+    100004: //RootNode
+    100006: Ground01
+    100008: Ground02
+    100010: Ground03
+    100012: RiverSide01
+    100014: RiverSide02
+    100016: RiverSide02 1
+    100018: RiverSide03
+    100020: RiverSide03 1
+    100022: RiverSide04
+    100024: RiverSide05
+    100026: RiverSide06
+    100028: Road01
+    100030: Road02
+    100032: RiverSide07
+    100034: RiverSide08
+    100036: plane
+    100038: Object005
+    100040: Grass
+    100042: Grass13
+    100044: Grass14
+    100046: Object002
+    100048: Object006
+    100050: Object007
+    100052: Object008
+    100054: Object009
+    100056: Road
+    100058: Ground02 1
+    100060: Object016
+    400000: Bridge
+    400002: Bridge01
+    400004: //RootNode
+    400006: Ground01
+    400008: Ground02
+    400010: Ground03
+    400012: RiverSide01
+    400014: RiverSide02
+    400016: RiverSide02 1
+    400018: RiverSide03
+    400020: RiverSide03 1
+    400022: RiverSide04
+    400024: RiverSide05
+    400026: RiverSide06
+    400028: Road01
+    400030: Road02
+    400032: RiverSide07
+    400034: RiverSide08
+    400036: plane
+    400038: Object005
+    400040: Grass
+    400042: Grass13
+    400044: Grass14
+    400046: Object002
+    400048: Object006
+    400050: Object007
+    400052: Object008
+    400054: Object009
+    400056: Road
+    400058: Ground02 1
+    400060: Object016
+    2300000: Bridge
+    2300002: Bridge01
+    2300004: Ground01
+    2300006: Ground02
+    2300008: Ground03
+    2300010: RiverSide01
+    2300012: RiverSide02
+    2300014: RiverSide02 1
+    2300016: RiverSide03
+    2300018: RiverSide03 1
+    2300020: RiverSide04
+    2300022: RiverSide05
+    2300024: RiverSide06
+    2300026: Road01
+    2300028: Road02
+    2300030: RiverSide07
+    2300032: RiverSide08
+    2300034: plane
+    2300036: Object005
+    2300038: Grass
+    2300040: Grass13
+    2300042: Grass14
+    2300044: Object002
+    2300046: Object006
+    2300048: Object007
+    2300050: Object008
+    2300052: Object009
+    2300054: Road
+    2300056: Ground02 1
+    2300058: Object016
+    3300000: Bridge
+    3300002: Bridge01
+    3300004: Ground01
+    3300006: Ground02
+    3300008: Ground03
+    3300010: RiverSide01
+    3300012: RiverSide02
+    3300014: RiverSide02 1
+    3300016: RiverSide03
+    3300018: RiverSide03 1
+    3300020: RiverSide04
+    3300022: RiverSide05
+    3300024: RiverSide06
+    3300026: Road01
+    3300028: Road02
+    3300030: RiverSide07
+    3300032: RiverSide08
+    3300034: plane
+    3300036: Object005
+    3300038: Grass
+    3300040: Grass13
+    3300042: Grass14
+    3300044: Object002
+    3300046: Object006
+    3300048: Object007
+    3300050: Object008
+    3300052: Object009
+    3300054: Road
+    3300056: Ground02 1
+    3300058: Object016
+    4300000: Bridge
+    4300002: Bridge01
+    4300004: RiverSide03
+    4300006: RiverSide01
+    4300008: RiverSide02
+    4300010: Ground03
+    4300012: Ground01
+    4300014: Ground02
+    4300016: Road01
+    4300018: Road02
+    4300020: RiverSide03
+    4300022: RiverSide06
+    4300024: RiverSide02
+    4300026: RiverSide04
+    4300028: RiverSide05
+    4300030: RiverSide08
+    4300032: RiverSide07
+    4300034: plane
+    4300036: Object005
+    4300038: Grass13
+    4300040: Grass14
+    4300042: Grass
+    4300044: Object002
+    4300046: Object006
+    4300048: Object007
+    4300050: Object008
+    4300052: Object009
+    4300054: Road
+    4300056: Ground02
+    4300058: Object016
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

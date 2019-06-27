@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0AB45F2E-9DF8-6D5D-6267-BF7ECF5AEE81}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity 4.6.0f3/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity 4.6.0f3/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\EnvelopContent.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\ExampleDragDropItem.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\ExampleDragDropSurface.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\OpenURLOnClick.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\SetColorPickerColor.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\Spin.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\Tutorial5.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\UISliderColors.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+     <Compile Include="Assets\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnClick.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropContainer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropItem.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropRoot.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragResize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIEventTrigger.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyBinding.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyNavigation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIProgressBar.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollView.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIShowControlScheme.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISlider.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggle.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Interaction\UIWrapContent.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMFont.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\BetterList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\EventDelegate.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIText.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\NGUITools.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\PropertyBinding.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\PropertyReference.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\RealTime.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIBasicSprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIRect.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UISnapshotPoint.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Internal\UIWidget.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedWidget.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenHeight.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenWidth.cs" />
+     <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UI2DSprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UI2DSpriteAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAnchor.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIColorPicker.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIInput.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIInputOnGUI.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILabel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISprite.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteData.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITextList.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Adaptate\CameraAdapter.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\AuthorityHelper.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\CMSManage.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\AlertPrecessLogDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\AuthorityDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\DeviceDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\EvacuationPlanDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\GroupAuthorityDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\GroupDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\PassengerFlowAreaDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\PresetPositionDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\UserBasicDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\UserGroupDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\VideoPatrolDetailLogDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\VideoPatrolLogDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\Dao\VideoPatrolPlanDao.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\DataStore.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\PlayMonitorVideo.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\VideoWindow.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\sys_info.cs" />
+     <Compile Include="Assets\YF_Scripts\Common\user_info.cs" />
+     <Compile Include="Assets\YF_Scripts\HelloWorld.cs" />
+     <Compile Include="Assets\YF_Scripts\Network\NetworkClient.cs" />
+     <Compile Include="Assets\YF_Scripts\Network\NetworkMsgAnalysis.cs" />
+     <Compile Include="Assets\YF_Scripts\Network\SocketCmd.cs" />
+     <Compile Include="Assets\YF_Scripts\Network\SocketDataTool.cs" />
+     <Compile Include="Assets\YF_Scripts\Network\SocketMessage.cs" />
+     <Compile Include="Assets\YF_Scripts\Network\yf_Commond.cs" />
+     <Compile Include="Assets\YF_Scripts\StartServer\EditCameraManager.cs" />
+     <Compile Include="Assets\YF_Scripts\StartServer\EditCameraWindow.cs" />
+     <Compile Include="Assets\YF_Scripts\StartServer\StartServer.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\DisplayVideo.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\DisplayWindow.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\MonitorIcon.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\MonitorVideoDisplayCtr.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\ScoketVideo\NetConnectVideo.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\ScoketVideo\NetProtocol.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\ScoketVideo\NetTools.cs" />
+     <Compile Include="Assets\YF_Scripts\Test\SwitchWindows.cs" />
+     <Compile Include="Assets\YF_Scripts\base\Logger.cs" />
+     <Compile Include="Assets\YF_Scripts\base\OdbcDataManager.cs" />
+     <Compile Include="Assets\YF_Scripts\base\OracleDataBaseLinker.cs" />
+     <Compile Include="Assets\YF_Scripts\base\shareMem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\3DUI\CameraUI.cs" />
+     <Compile Include="Assets\YF_Scripts\business\3DUI\CameraUICtrl.cs" />
+     <Compile Include="Assets\YF_Scripts\business\3DUI\PassengerAreaUI.cs" />
+     <Compile Include="Assets\YF_Scripts\business\CameraController.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\Configure.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\DevicEditLogin.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\DeviceEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\DrawSector.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EditedDeviceListItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuateAreaEdit\EditedEvacuateAreaListItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuateAreaEdit\EvacuateAreaDeviceEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuateAreaEdit\EvacuateAreaDeviceItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuateAreaEdit\EvacuateAreaEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuateAreaEdit\EvacuateAreaTool.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuatePlanEdit\EditedEvacuatePlanListItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuatePlanEdit\EvacuateAreaOfPlanEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuatePlanEdit\EvacuateAreaOfPlanItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\EvacuatePlanEdit\EvacuatePlanEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\HoverOverObjectEdit\HoverOverCameraInfo.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\LoginPanelChange.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\MonitorScopeSetter.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaDeviceEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaDeviceItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaEdit\EditedPassengerFlowInfoReceiver.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaEdit\EditedPassengerFlowInfoShow.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaListItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PassengerFlowAreaWarnLevelEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\PhysicalDeviceListItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\RTSPSetter.cs" />
+     <Compile Include="Assets\YF_Scripts\business\DeviceEdit\WarnWindow.cs" />
+     <Compile Include="Assets\YF_Scripts\business\EvacuationPlan\EvacuationCameraCtrl.cs" />
+     <Compile Include="Assets\YF_Scripts\business\EvacuationPlan\EvacuationPlanManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\EvacuationPlan\MotionAction.cs" />
+     <Compile Include="Assets\YF_Scripts\business\EvacuationPlan\RoleMotion.cs" />
+     <Compile Include="Assets\YF_Scripts\business\Login\LoadScene.cs" />
+     <Compile Include="Assets\YF_Scripts\business\Login\LoginAndExit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\LoginInfo.cs" />
+     <Compile Include="Assets\YF_Scripts\business\Logout\ChangeAccount.cs" />
+     <Compile Include="Assets\YF_Scripts\business\Logout\LogoutManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\Logout\UnLock.cs" />
+     <Compile Include="Assets\YF_Scripts\business\MainMenuController.cs" />
+     <Compile Include="Assets\YF_Scripts\business\Operation.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PassengerFlowManage\MeasurementTools.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PassengerFlowManage\PassengerFlowInfoCamera.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PassengerFlowManage\PassengerFlowInfoDetail.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PassengerFlowManage\PassengerFlowInfoReceiver.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PassengerFlowManage\PassengerFlowInfoShow.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PassengerFlowManage\PassengerFlowInfoUI.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PersonalManage\PasswordModify.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PersonalManage\PersonalDetailInfoShow.cs" />
+     <Compile Include="Assets\YF_Scripts\business\PersonalManage\PersonalManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\DeviceManage\DeviceRecordItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\DeviceManage\DeviceRecordManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\DeviceManage\PresetPositionManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\GroupManage\AuthorityItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\GroupManage\AuthorityItemControl.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\GroupManage\GroupInfoModify.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\GroupManage\GroupManageUIPanelControl.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\GroupManage\GroupRecordItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\GroupManage\GroupRecordManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\GroupManage\NewGroup.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\LogManage\AlertLogItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\LogManage\LogLableItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\LogManage\LogManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\LogManage\ShowVideoPatrolPicture.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\LogManage\VideoPatrolDetailLog.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\LogManage\VideoPatrolDetailLogItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\LogManage\VideoPatrolLogItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\SystemManageButtonManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\SystemManageController.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\UserManage\AccountManageControl.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\UserManage\NewUser.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\UserManage\UserInfoModify.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\UserManage\UserRecordItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\UserManage\UserRecordManage.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\UserManage\userGroupItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\VideoPatrolMange\DrawMap.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\VideoPatrolMange\SelecteMornitorItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\VideoPatrolMange\SelectedMornitorItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\VideoPatrolMange\VideoPatrolMange.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\VideoPatrolMange\VideoPatrolPlanEdit.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\VideoPatrolMange\VideoPatrolPlanItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\SystemManage\VideoPatrolMange\VideoPatrolPlanView.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\MonitorIco.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\MonitorInfoData.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\MonitorListItem.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\MonitorVideoDisplayController.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\PlayVideoPatrolPlan.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\RealTimeMonitor.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\VideoPatrolPlanMapPanelCtrl.cs" />
+     <Compile Include="Assets\YF_Scripts\business\VideoCruise\ZoomMonitorList.cs" />
+     <Compile Include="Assets\YF_Scripts\business\business_scene.cs" />
+     <Compile Include="Assets\YF_Scripts\business\dag_camera.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.9.0.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\YF_Config\DatabaseConfig.xml" />
+     <None Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\YF_Sources\YF_Models\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\YF_Sourcesframe\YF_Shader\YF_PolyGon_ZTest.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\MyColoredShader.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Record\myslq配置.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - MyColored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\YF_Sources\YF_Models\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\YF_Sources\YF_Shader\OutLineOnly.shader" />
+     <None Include="Assets\YF_Config\PatrolConfig.xml" />
+     <None Include="Assets\YF_Sources\YF_Shader\noZTest_unlit.shader" />
+     <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity 4.6.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="libYunFuCSV">
+ <HintPath>D:/Desktop/ChenYunProject（陈云）/ChenYunProject/Assets/Plugins/libYunFuCSV.dll</HintPath>
+ </Reference>
+ <Reference Include="OdbcHelper">
+ <HintPath>D:/Desktop/ChenYunProject（陈云）/ChenYunProject/Assets/Plugins/OdbcHelper.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Desktop/ChenYunProject（陈云）/ChenYunProject/Assets/Plugins/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>D:/Desktop/ChenYunProject（陈云）/ChenYunProject/Assets/Plugins/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows.Forms">
+ <HintPath>D:/Desktop/ChenYunProject（陈云）/ChenYunProject/Assets/Plugins/System.Windows.Forms.dll</HintPath>
+ </Reference>
+ <Reference Include="SharpFFmpeg">
+ <HintPath>D:/Desktop/ChenYunProject（陈云）/ChenYunProject/Assets/YF_Dll/SharpFFmpeg.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

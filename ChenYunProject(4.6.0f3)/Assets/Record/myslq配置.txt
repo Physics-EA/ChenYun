@@ -1,0 +1,21 @@
+进行my-default.ini配置
+basedir = C:\Program Files\MySQL\MySQL Server 5.7
+
+datadir = C:\Program Files\MySQL\MySQL Server 5.7\data
+
+
+在命令行模式下执行
+cd C:\Program Files\MySQL\MySQL Server 5.7\bin
+然后执行
+mysqld --initialize 或者 mysqld --initialize-insecure
+
+
+C:\Program Files\MySQL\MySQL Server 5.7\data 文件夹下面有个以.err为后缀的文件
+ 里面有个 A temporary password is generated for root@localhost:*QxhGlJqh0+B
+“root@localhost:”后面是随机生成登录密码 。
+
+使用上面的生成的随机密码登录mysql数据库。
+使用下面语句修改密码
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+
+new_password 为自己随便设置的密码。
